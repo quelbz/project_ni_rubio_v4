@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+    crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" 
+    crossorigin="anonymous"></script> 
+
+    <!--CSS only-->
+    <link rel="stylesheet" type="text/css" href="style.css" >
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 bg-light">
+        <div class="container">
+   
+    <img src="img/tara.png" alt="" class="rounded rounded-circle" style="height: 6rem;">
+        <button class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#NavBarMenu"
+         aria-controls="NavBarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i id="bar" class="fa-solid fa-bars"></i></span>
+        </button>
+        <!-- Followed by what's inside the navbar button -->
+      
+        <div class="collapse navbar-collapse justify-content-sm-end" id="NavBarMenu">
+            
+    <ul class="nav navbar-nav ml-auto">
+    <li class="nav-item"><a href="index.html">Home</a></li>
+    <li class="nav-item"><a href="shop.html">Shop</a></li>
+    <li class="nav-item"><a href="#fot">Contact Us</a></li>
+    <li class="nav-item icons">
+
+    </li>
+    <li>
+        <a href="login.html" class="btn pm-3">Log In</a>     
+    </li>
+    </ul>
+</div>
+    </div>
+    </nav>
+
+
+<!-- start of application form -->
+<center>
+<div class="container text-center pt-5">
+    <h2 class="mb-3 app-form">Application Form</h2>
+    <p class="text-black-50">
+      Complete the form and book a call with one of our experts to find out if this program is right for you at this point of your development career.
+    </p>
+    <form class="mt-5 bea-form">
+      <!-- start input group 1 -->
+      <div class="input-group w-75 fl-name">
+        <div class="form-floating me-2">
+          <input
+            type="text"
+            placeholder=""
+            class="form-control"
+            id="floating-firstname"
+            required
+          />
+          <label for="floating-firstname">First Name</label>
+        </div>
+        <br />
+        <div class="form-floating ms-2">
+          <input
+            type="text"
+            placeholder=""
+            class="form-control"
+            id="floating-lastname"
+            required
+          />
+          <label for="floating-lastname">Last Name</label>
+        </div>
+      </div>
+      <br />
+      <!-- start of new input group -->
+      <div class="input-group w-75 fl-name">
+        <div class="form-floating me-2">
+          <input
+            type="text"
+            placeholder=""
+            class="form-control"
+            id="floating-age"
+          />
+          <label for="floating-firstname">Age</label>
+        </div>
+        <br />
+        <div class="form-floating ms-2">
+          <input
+            type="date"
+            placeholder=""
+            class="form-control"
+            id="floating-lastname"
+            required
+          />
+          <label for="floating-lastname">Birth Date</label>
+        </div>
+      </div>
+      <br />
+      <!-- end of new input group -->
+      <!-- start of new input group -->
+      <div class="input-group w-75 fl-name">
+        <div class="form-floating me-2">
+          <input
+            type="email"
+            placeholder=""
+            class="form-control"
+            id="floating-email"
+            required
+          />
+          <label for="floating-email">Email address</label>
+        </div>
+        <br />
+        <div class="form-floating ms-2">
+          <input
+            type="email"
+            placeholder=""
+            class="form-control"
+            id="floating-mobile"
+            required
+          />
+          <label for="floating-mobile">Mobile number</label>
+        </div>
+      </div>
+      <br />
+      <!-- end of new input group -->
+
+      <div class="w-75 fl-name">
+        <label for="educational-attainment" class="text-start label-educ"
+          >Educational Attainment </label
+        >
+        <select
+          name="educational-attainment"
+          id="educational-attainment"
+          class="form-control"
+        >
+        
+          <option>4/5-Year College Course Graduate</option>
+          <option>Senior Highschool Graduate</option>
+          <option>Finished Masters/Doctorate</option>
+        </select>
+      </div>
+      <br />
+
+      <div class="w-75 fl-name">
+
+                <!-- radio3 end -->
+        <div class="input-group w-100 fl-name mt-4 contact-number">
+          <label for="cnum" class="input-group-text text-wrap w-inherit">Contact No:</label>
+          <input type="text" id="cnum" class="form-control" placeholder="09xxxxxxxxx" maxlength="11" minlength="11">
+      </div>
+      
+        <label for="text-area" class="mt-4 ps-0 pe-5 pb-3 text-start why-accept">Complete the sentence and type your short answer below. I deserve to get accepted because:</label>
+        <input type="text-area" class="form-control" id="text-area">
+
+        <!-- button /modal -->
+        <center>
+          <button class="btn btn-primary mt-5" type="button" data-bs-dismiss="modal" data-bs-target="#modal1" data-bs-toggle="modal">
+              Submit My Application Form
+       </button>
+  
+      <!-- main modal -->
+          <div class="modal fade" id="modal1" tabindex="-1">
+                  <div class="modal-dialog">
+                          <div class="modal-content">
+                          <div class="modal-header">
+                              <h5 class="modal-title" id="modalTitle">
+                                  Hello Customers! Thank you for your registration!</h5>
+                                  <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="close">
+                              </button>
+                          </div>
+  <!-- body -->
+                              <div class="modal-body">
+                                  <p>Hope you will enjoy in our store Tara,Takbo! We are the most cheapest store here in Philippines "saan aabot 500 pesos mo"<br>Thank You!</p>
+                              </div>
+  <!-- body -->
+  <!-- modal footer -->
+                              <div class="modal-footer ">
+                                  <button class="btn btn-primary text-center" type="button" data-bs-dismiss="modal">
+                                      Close
+                                      </button>
+                              </div>
+   <!-- modal footer -->
+              
+                      </div>
+                  </div>
+          </div>
+      </div>
+  </center>
+    
+      </div>
+
+
+
+    </form>
+  </div>
+
+</center>
+  <!-- end of application form -->
+
+  <!-- reminder section -->
+
+  
+
+
+</body>
+</html>

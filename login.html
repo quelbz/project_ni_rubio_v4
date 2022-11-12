@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+    crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" 
+    crossorigin="anonymous"></script> 
+
+    <!--CSS only-->
+    <link rel="stylesheet" type="text/css" href="style.css" >
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+
+    <style>
+        body{
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            background-image: url('banner_login.jpg');
+            background-repeat: no-repeat;
+            background-position: cover;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 bg-light">
+        <div class="container">
+   
+    <img src="img/tara.png" alt="" class="rounded rounded-circle" style="height: 6rem;">
+        <button class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#NavBarMenu"
+         aria-controls="NavBarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i id="bar" class="fa-solid fa-bars"></i></span>
+        </button>
+        <!-- Followed by what's inside the navbar button -->
+      
+        <div class="collapse navbar-collapse justify-content-sm-end" id="NavBarMenu">
+            
+    <ul class="nav navbar-nav ml-auto">
+    <li class="nav-item"><a href="index.html">Home</a></li>
+    <li class="nav-item"><a href="shop_v2.html">Shop</a></li>
+    <li class="nav-item"><a href="#fot">Contact Us</a></li>
+    <li class="nav-item icons">
+
+    </li>
+    <li>
+        <a href="registration.html" class="btn pm-3">Register</a>     
+    </li>
+    </ul>
+</div>
+    </div>
+    </nav>
+
+    <center>
+        <div class="login-container text-white py-lg-5">
+            <h2>Log-in to Sk8-Hi</h2>
+            <form class="form-container mb-4 mt-4">
+                <label for="email" class="mb-1">Email</label>
+                <input type="text" id="email" class="mb-3">
+                <label for="password" class="mb-1">Password</label>
+                <input type="password" id="password">
+                <button class="btn btn-primary mt-4"><a href="index_login.html" class="text-white text-decoration-none">Log In</a> </button>
+            </form>
+
+            <button class="btn btn-light bg-transparent text-white" type="button" data-bs-dismiss="modal" data-bs-target="#modal1" data-bs-toggle="modal">
+              Forgot Password
+       </button>
+    
+        <!-- main modal -->
+            <div class="modal fade text-dark" id="modal1" tabindex="-1">
+                    <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modalTitle">
+                                    Hello Friend!</h5>
+                                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="close">
+                                </button>
+                            </div>
+    <!-- body -->
+                                <div class="modal-body">
+                                    <p>Input your email address and we will send you your password</p>
+                                    <input type="email" class="form-control mb-3">
+                                    <div class="btn btn-info">Send Me My Password</div>
+                                </div>
+    <!-- body -->
+    <!-- modal footer -->
+                                <div class="modal-footer ">
+                                    <button class="btn btn-primary text-center" type="button" data-bs-dismiss="modal">
+                                        Close
+                                        </button>
+                                </div>
+     <!-- modal footer -->
+        </div>
+                    </div>
+                </div>     
+    </center>
+
+
+
+
+
+
+</body>
+</html>

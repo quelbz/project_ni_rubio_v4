@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubio Store</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+    crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" 
+    crossorigin="anonymous"></script> 
+
+    <!--CSS only-->
+    <link rel="stylesheet" type="text/css" href="style.css" >
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <style>
+        #cart1{
+            border-radius: 10px;
+        }
+        #detail_s{
+            text-align: justify;
+        }
+
+
+        
+    </style>
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 bg-light">
+        <div class="container">
+   
+    <img src="img/tara.png" alt="" class="rounded rounded-circle" style="height: 6rem;">
+        <button class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#NavBarMenu"
+         aria-controls="NavBarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i id="bar" class="fa-solid fa-bars"></i></span>
+        </button>
+        <!-- Followed by what's inside the navbar button -->
+      
+        <div class="collapse navbar-collapse justify-content-sm-end" id="NavBarMenu">
+            
+    <ul class="nav navbar-nav ml-auto">
+    <li class="nav-item"><a href="main.html">Home</a></li>
+    <li class="nav-item"><a href="shop_v2.html">Shop</a></li>
+    <li class="nav-item"><a href="#fot">Contact Us</a></li>
+    <li class="nav-item icons">
+   
+    </li>
+    <a href="login.html" class="btn pm-3">Log Out</a>   
+    </ul>
+</div>
+    </div>
+    </nav>
+    
+    <br><br><br><br><br>
+    <section>
+    <div>
+        <section id="home">
+            <div class="container">
+                <h5 class="text-light">New Arrivals</h5>
+                <h1 class="text-warning bg-transparent col-6">Best Price<span>This Year</span></h1>
+                <p class="text-white">Tara,<span>Takbo</span> offers you a very comfortable time<br>on walking and exercises.</p>
+                <a href="shop_v2.html"><button>Shop</button></a>
+            </div>
+        </section>
+    </div>
+    <!--brand section-->
+</section>
+<div id="brand" class="container">
+    <div class="row">
+        <img class="img-fluid col-lg-2 col-md-4 col-6" src="img/brand/aph.jpg" alt="">
+        <img class="img-fluid col-lg-2 col-md-4 col-6" src="img/brand/bench.jpg" alt="">
+        <img class="img-fluid col-lg-2 col-md-4 col-6" src="img/brand/pen.jpg" alt="">
+        <img class="img-fluid col-lg-2 col-md-4 col-6" src="img/brand/boss.png" alt="">
+        <img class="img-fluid col-lg-2 col-md-4 col-6" src="img/brand/boss1.png" alt="">
+        <img class="img-fluid col-lg-2 col-md-4 col-6" src="img/brand/jaguar.png" alt="">
+    </div>
+</div>
+<!--new section-->
+<div id="new char blog-container" class="w-100">
+  <div class="row p-0 m-0">
+    <div class="one col-lg-4 col-md-12 col-12 p-0">
+        <img class="img-fluid" src="img/New/new1.jpg" alt="">
+        <div class="details">
+            <center>
+            <h2>Sportwatch 50% off</h2>
+            <a href="shop_v2.html"><button class="text-uppercase">Shop Now</button></a>
+        </center>
+        </div>
+    </div>
+    
+    <div class="one col-lg-4 col-md-12 col-12 p-0">
+        <img class="img-fluid" src="img/New/new2.png" alt="">
+        <div class="details">
+            <center>
+            <h2>Awesome black outfit</h2>
+            <a href="shop_v2.html"><button class="text-uppercase">Shop Now</button></a>
+        </center>
+        </div>
+    </div>
+
+    <div class="one col-lg-4 col-md-12 col-12 p-0">
+        <img class="img-fluid" src="img/New/new3.png" alt="">
+        <div class="details">
+            <center>
+            <h2>Extreme Camera </h2>
+            <a href="shop_v2.html"><button class="text-uppercase">Shop Now</button></a>
+            </center>
+        </div>
+    </div>
+  </div>
+  
+</div>
+<!--featured section-->
+<div id="featured " class="my-5 pb-5">
+    <div class="container text-center mt-5 py-5">
+        <h3>Our Featured</h3>
+        <hr class="mx-auto">
+        <p>Here you can check out our new products with fair price on Tara Takbo!</p>
+    </div>
+    <div class="row mx-auto container">
+
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/featured/f1.jpeg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Sports Sneakers </h5>
+        <h4 class="p-price">$92.3</h4>
+        <button type="button" class="buy-btn" data-bs-toggle="modal" data-bs-target="#myModal">Buy Now</button>
+        <!-- The Modal -->
+<div class="modal fade w-100" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Men's Fashion</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="row modal-body">
+          <div class="col-lg-5 col-md-12 col-12">
+            <img class="img-fluid w-100 h-100" src="img/featured/f1.jpeg" alt="">
+          </div>
+          <div class="col-lg-6 col-md-12 col-12 product_s">
+                <h6>Home / Shoes</h6>
+                <h2>$1</h2>
+                <select class="my-3 bg-light">
+                    <option>Select Size</option>
+                    <option>40</option>
+                    <option>41</option>
+                    <option>42</option>
+                    <option>43</option>
+                    <option>44</option>
+                </select>
+                <input style="width: 50px;" type="number" value="1">
+                <a href=""><button class="cart1">Add to Cart</button></a>
+                <h4 class="mt-5 mb-5">Product Details</h4>
+                <span class="detail_s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quod doloribus nobis,Vel expedita perspiciatis commodi.</span>
+          </div>
+        </div>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+</div>
+    </div>
+        
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/featured/f2.jpeg" alt="">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Dance Sneakers </h5>
+        <h4 class="p-price">$100</h4>
+        <button type="button" class="buy-btn" data-bs-toggle="modal" data-bs-target="#myModal1">Buy Now</button>
+        <!-- The Modal -->
+        <div class="modal fade w-100" id="myModal1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Man's Fashion</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="row modal-body">
+                  <div class="col-lg-5 col-md-12 col-12">
+                    <img class="img-fluid w-100 h-100" src="img/featured/f2.jpeg" alt="">
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-12 product_s">
+                        <h6>Home / Shoes</h6>
+                        <h2>$1</h2>
+                        <select class="my-3 bg-light">
+                            <option>Select Size</option>
+                            <option>40</option>
+                            <option>41</option>
+                            <option>42</option>
+                            <option>43</option>
+                            <option>44</option>
+                        </select>
+                        <input style="width: 50px;" type="number" value="1">
+                        <a><button id="cart1">Add to Cart</button></a>
+                        <h4 class="mt-5 mb-5">Product Details</h4>
+                        <span class="detail_s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quod doloribus nobis,Vel expedita perspiciatis commodi.</span>
+                  </div>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+          
+              </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/featured/f3.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Demonic Mask</h5>
+        <h4 class="p-price">$25</h4>
+        <button type="button" class="buy-btn" data-bs-toggle="modal" data-bs-target="#myModal2">Buy Now</button>
+        <!-- The Modal -->
+        <div class="modal fade w-100" id="myModal2">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Man's Fashion</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="row modal-body">
+                  <div class="col-lg-5 col-md-12 col-12">
+                    <img class="img-fluid w-100 h-100" src="img/featured/f3.jpg" alt="">
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-12 product_s">
+                        <h6>Home / Shoes</h6>
+                        <h2>$1</h2>
+                        <select class="my-3 bg-light">
+                            <option>Select Size</option>
+                            <option>40</option>
+                            <option>41</option>
+                            <option>42</option>
+                            <option>43</option>
+                            <option>44</option>
+                        </select>
+                        <input style="width: 50px;" type="number" value="1">
+                        <a><button id="cart1">Add to Cart</button></a>
+                        <h4 class="mt-5 mb-5">Product Details</h4>
+                        <span class="detail_s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quod doloribus nobis,Vel expedita perspiciatis commodi.</span>
+                  </div>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+          
+              </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/featured/f4.jfif">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Back Pack</h5>
+        <h4 class="p-price">$10</h4>
+        <button type="button" class="buy-btn" data-bs-toggle="modal" data-bs-target="#myModal3">Buy Now</button>
+        <!-- The Modal -->
+        <div class="modal fade w-100" id="myModal3">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Man's Fashion</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="row modal-body">
+                  <div class="col-lg-5 col-md-12 col-12">
+                    <img class="img-fluid w-100 h-100" src="img/featured/f4.jfif" alt="">
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-12 product_s">
+                        <h6>Home / Shoes</h6>
+                        <h2>$1</h2>
+                        <select class="my-3 bg-light">
+                            <option>Select Size</option>
+                            <option>40</option>
+                            <option>41</option>
+                            <option>42</option>
+                            <option>43</option>
+                            <option>44</option>
+                        </select>
+                        <input style="width: 50px;" type="number" value="1">
+                        <a><button id="cart1">Add to Cart</button></a>
+                        <h4 class="mt-5 mb-5">Product Details</h4>
+                        <span class="detail_s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quod doloribus nobis,Vel expedita perspiciatis commodi.</span>
+                  </div>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+          
+              </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+<!--banner-->
+<div id="banner" class="my-5 py-5">
+    <div class="container fw-light">
+        <h4>MID SEASON'S SALE</h4>
+        <h1 class="text-bold">Autumn Collection<br><span id="up">UP TO 100% OFF</span></h1>
+        <a href="shop.html"><button class="text-uppercase">Shop Now</button></a>
+    </div>
+</div>
+<!--clothes-->
+<div id="clothes" class="my-5 pb-5">
+    <div class="container text-center mt-5 py-5">
+        <h3>T-Shirts and Jacket for Men</h3>
+        <hr class="mx-auto">
+        <p>Here you can check out our new products with fair price on Tara Takbo!</p>
+    </div>
+    <div class="row mx-auto container-fluid">
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/clothes/c2.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Idgaf</h5>
+        <h4 class="p-price">$25</h4>
+        <button type="button" class="buy-btn" data-bs-toggle="modal" data-bs-target="#myModal4">Buy Now</button>
+        <!-- The Modal -->
+        <div class="modal fade w-100" id="myModal4">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Man's Fashion</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="row modal-body">
+                  <div class="col-lg-5 col-md-12 col-12">
+                    <img class="img-fluid w-100 h-100" src="img/clothes/c2.jpg" alt="">
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-12 product_s">
+                        <h6>Home / Shoes</h6>
+                        <h2>$1</h2>
+                        <select class="my-3 bg-light">
+                            <option>Select Size</option>
+                            <option>40</option>
+                            <option>41</option>
+                            <option>42</option>
+                            <option>43</option>
+                            <option>44</option>
+                        </select>
+                        <input style="width: 50px;" type="number" value="1">
+                        <a><button id="cart1">Add to Cart</button></a>
+                        <h4 class="mt-5 mb-5">Product Details</h4>
+                        <span class="detail_s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quod doloribus nobis,Vel expedita perspiciatis commodi.</span>
+                  </div>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+          
+              </div>
+            </div>
+        </div>
+        </div>
+
+
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/clothes/c3.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Star Dreams</h5>
+        <h4 class="p-price">$30</h4>
+        <button type="button" class="buy-btn" data-bs-toggle="modal" data-bs-target="#myModal5">Buy Now</button>
+        <!-- The Modal -->
+        <div class="modal fade w-100" id="myModal5">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Man's Fashion</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="row modal-body">
+                  <div class="col-lg-5 col-md-12 col-12">
+                    <img class="img-fluid w-100 h-100" src="img/clothes/c3.jpg" alt="">
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-12 product_s">
+                        <h6>Home / Shoes</h6>
+                        <h2>$1</h2>
+                        <select class="my-3 bg-light">
+                            <option>Select Size</option>
+                            <option>40</option>
+                            <option>41</option>
+                            <option>42</option>
+                            <option>43</option>
+                            <option>44</option>
+                        </select>
+                        <input style="width: 50px;" type="number" value="1">
+                        <a><button id="cart1">Add to Cart</button></a>
+                        <h4 class="mt-5 mb-5">Product Details</h4>
+                        <span class="detail_s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quod doloribus nobis,Vel expedita perspiciatis commodi.</span>
+                  </div>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+          
+              </div>
+            </div>
+        </div>
+        </div>
+
+
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/clothes/c4.jpeg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Cream</h5>
+        <h4 class="p-price">$40</h4>
+        <button type="button" class="buy-btn" data-bs-toggle="modal" data-bs-target="#myModal6">Buy Now</button>
+        <!-- The Modal -->
+        <div class="modal fade w-100" id="myModal6">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Man's Fashion</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="row modal-body">
+                  <div class="col-lg-5 col-md-12 col-12">
+                    <img class="img-fluid w-100 h-100" src="img/clothes/c4.jpeg" alt="">
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-12 product_s">
+                        <h6>Home / Shoes</h6>
+                        <h2>$1</h2>
+                        <select class="my-3 bg-light">
+                            <option>Select Size</option>
+                            <option>40</option>
+                            <option>41</option>
+                            <option>42</option>
+                            <option>43</option>
+                            <option>44</option>
+                        </select>
+                        <input style="width: 50px;" type="number" value="1">
+                        <a><button id="cart1">Add to Cart</button></a>
+                        <h4 class="mt-5 mb-5">Product Details</h4>
+                        <span class="detail_s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quod doloribus nobis,Vel expedita perspiciatis commodi.</span>
+                  </div>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+          
+              </div>
+            </div>
+        </div>
+        </div>
+
+
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/clothes/c5.jpeg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Purose</h5>
+        <h4 class="p-price">$80</h4>
+        <button type="button" class="buy-btn" data-bs-toggle="modal" data-bs-target="#myModal7">Buy Now</button>
+        <!-- The Modal -->
+        <div class="modal fade w-100" id="myModal7">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Man's Fashion</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="row modal-body">
+                  <div class="col-lg-5 col-md-12 col-12">
+                    <img class="img-fluid w-100 h-100" src="img/clothes/c5.jpeg" alt="">
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-12 product_s">
+                        <h6>Home / Shoes</h6>
+                        <h2>$1</h2>
+                        <select class="my-3 bg-light">
+                            <option>Select Size</option>
+                            <option>40</option>
+                            <option>41</option>
+                            <option>42</option>
+                            <option>43</option>
+                            <option>44</option>
+                        </select>
+                        <input style="width: 50px;" type="number" value="1">
+                        <a><button id="cart1">Add to Cart</button></a>
+                        <h4 class="mt-5 mb-5">Product Details</h4>
+                        <span class="detail_s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quod doloribus nobis,Vel expedita perspiciatis commodi.</span>
+                  </div>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+          
+              </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+</div>
+
+
+             <!--watches-->
+<div id="watches" class="my-5 pb-5">
+    <div class="container text-center">
+        <h3>Best Watches</h3>
+        <hr class="mx-auto">
+        <p>Here you can check out our new products with fair price on Tara Takbo!</p>
+    </div>
+    <div class="row mx-auto container-fluid">
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/watch/w1.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Olves</h5>
+        <h4 class="p-price">$105</h4>
+        <button type="button" class="buy-btn" data-bs-toggle="modal" data-bs-target="#myModal8">Buy Now</button>
+        <!-- The Modal -->
+        <div class="modal fade w-100" id="myModal8">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Man's Fashion</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="row modal-body">
+                  <div class="col-lg-5 col-md-12 col-12">
+                    <img class="img-fluid w-100 h-100" src="img/watch/w1.jpg" alt="">
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-12 product_s">
+                        <h6>Home / Shoes</h6>
+                        <h2>$1</h2>
+                        <select class="my-3 bg-light">
+                            <option>Select Size</option>
+                            <option>40</option>
+                            <option>41</option>
+                            <option>42</option>
+                            <option>43</option>
+                            <option>44</option>
+                        </select>
+                        <input style="width: 50px;" type="number" value="1">
+                        <a><button id="cart1">Add to Cart</button></a>
+                        <h4 class="mt-5 mb-5">Product Details</h4>
+                        <span class="detail_s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quod doloribus nobis,Vel expedita perspiciatis commodi.</span>
+                  </div>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+          
+              </div>
+            </div>
+        </div>
+        </div>
+
+
+
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/watch/w2.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Old style watch</h5>
+        <h4 class="p-price">$50</h4>
+        <button type="button" class="buy-btn" data-bs-toggle="modal" data-bs-target="#myModal9">Buy Now</button>
+        <!-- The Modal -->
+        <div class="modal fade w-100" id="myModal9">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Man's Fashion</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="row modal-body">
+                  <div class="col-lg-5 col-md-12 col-12">
+                    <img class="img-fluid w-100 h-100" src="img/watch/w2.jpg" alt="">
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-12 product_s">
+                        <h6>Home / Shoes</h6>
+                        <h2>$1</h2>
+                        <select class="my-3 bg-light">
+                            <option>Select Size</option>
+                            <option>40</option>
+                            <option>41</option>
+                            <option>42</option>
+                            <option>43</option>
+                            <option>44</option>
+                        </select>
+                        <input style="width: 50px;" type="number" value="1">
+                        <a><button id="cart1">Add to Cart</button></a>
+                        <h4 class="mt-5 mb-5">Product Details</h4>
+                        <span class="detail_s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quod doloribus nobis,Vel expedita perspiciatis commodi.</span>
+                  </div>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+          
+              </div>
+            </div>
+        </div>
+        </div>
+
+
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/watch/w3.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Black Panther Watch</h5>
+        <h4 class="p-price">$60</h4>
+        <button type="button" class="buy-btn" data-bs-toggle="modal" data-bs-target="#myModal10">Buy Now</button>
+        <!-- The Modal -->
+        <div class="modal fade w-100" id="myModal10">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Man's Fashion</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="row modal-body">
+                  <div class="col-lg-5 col-md-12 col-12">
+                    <img class="img-fluid w-100 h-100" src="img/watch/w3.jpg" alt="">
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-12 product_s">
+                        <h6>Home / Shoes</h6>
+                        <h2>$1</h2>
+                        <select class="my-3 bg-light">
+                            <option>Select Size</option>
+                            <option>40</option>
+                            <option>41</option>
+                            <option>42</option>
+                            <option>43</option>
+                            <option>44</option>
+                        </select>
+                        <input style="width: 50px;" type="number" value="1">
+                        <a><button id="cart1">Add to Cart</button></a>
+                        <h4 class="mt-5 mb-5">Product Details</h4>
+                        <span class="detail_s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quod doloribus nobis,Vel expedita perspiciatis commodi.</span>
+                  </div>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+          
+              </div>
+            </div>
+        </div>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/watch/w4.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Silver Lion</h5>
+        <h4 class="p-price">$120</h4>
+        <button type="button" class="buy-btn" data-bs-toggle="modal" data-bs-target="#myModal11">Buy Now</button>
+        <!-- The Modal -->
+        <div class="modal fade w-100" id="myModal11">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Man's Fashion</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="row modal-body">
+                  <div class="col-lg-5 col-md-12 col-12">
+                    <img class="img-fluid w-100 h-100" src="img/watch/w4.jpg" alt="">
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-12 product_s">
+                        <h6>Home / Shoes</h6>
+                        <h2>$1</h2>
+                        <select class="my-3 bg-light">
+                            <option>Select Size</option>
+                            <option>40</option>
+                            <option>41</option>
+                            <option>42</option>
+                            <option>43</option>
+                            <option>44</option>
+                        </select>
+                        <input style="width: 50px;" type="number" value="1">
+                        <a><button id="cart1">Add to Cart</button></a>
+                        <h4 class="mt-5 mb-5">Product Details</h4>
+                        <span class="detail_s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quod doloribus nobis,Vel expedita perspiciatis commodi.</span>
+                  </div>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+          
+              </div>
+            </div>
+        </div>
+        </div>
+
+
+
+    </div>
+</div>
+ <!--Shoes-->
+ <div id="shoes" class="my-5 pb-5">
+    <div class="container text-center">
+        <h3>Running Shoes</h3>
+        <hr class="mx-auto">
+        <p>Here you can check out our new products with fair price on Tara Takbo!</p>
+    </div>
+    <div class="row mx-auto container-fluid">
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/shoes/s1.jpg" >
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Sneakers for women</h5>
+        <h4 class="p-price">$105</h4>
+        <button type="button" class="buy-btn" data-bs-toggle="modal" data-bs-target="#myModal12">Buy Now</button>
+        <!-- The Modal -->
+        <div class="modal fade w-100" id="myModal12">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Man's Fashion</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="row modal-body">
+                  <div class="col-lg-5 col-md-12 col-12">
+                    <img class="img-fluid w-100 h-100" src="img/shoes/s1.jpg" alt="">
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-12 product_s">
+                        <h6>Home / Shoes</h6>
+                        <h2>$1</h2>
+                        <select class="my-3 bg-light">
+                            <option>Select Size</option>
+                            <option>40</option>
+                            <option>41</option>
+                            <option>42</option>
+                            <option>43</option>
+                            <option>44</option>
+                        </select>
+                        <input style="width: 50px;" type="number" value="1">
+                        <a><button id="cart1">Add to Cart</button></a>
+                        <h4 class="mt-5 mb-5">Product Details</h4>
+                        <span class="detail_s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quod doloribus nobis,Vel expedita perspiciatis commodi.</span>
+                  </div>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+          
+              </div>
+            </div>
+        </div>
+        </div>
+
+
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/shoes/s2.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Sandals</h5>
+        <h4 class="p-price">$50</h4>
+        <button type="button" class="buy-btn" data-bs-toggle="modal" data-bs-target="#myModal13">Buy Now</button>
+        <!-- The Modal -->
+        <div class="modal fade w-100" id="myModal13">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Man's Fashion</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="row modal-body">
+                  <div class="col-lg-5 col-md-12 col-12">
+                    <img class="img-fluid w-100 h-100" src="img/shoes/s2.jpg" alt="">
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-12 product_s">
+                        <h6>Home / Shoes</h6>
+                        <h2>$1</h2>
+                        <select class="my-3 bg-light">
+                            <option>Select Size</option>
+                            <option>40</option>
+                            <option>41</option>
+                            <option>42</option>
+                            <option>43</option>
+                            <option>44</option>
+                        </select>
+                        <input style="width: 50px;" type="number" value="1">
+                        <a><button id="cart1">Add to Cart</button></a>
+                        <h4 class="mt-5 mb-5">Product Details</h4>
+                        <span class="detail_s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quod doloribus nobis,Vel expedita perspiciatis commodi.</span>
+                  </div>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+          
+              </div>
+            </div>
+        </div>
+        </div>
+
+
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/shoes/s3.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Black Sandals</h5>
+        <h4 class="p-price">$60</h4>
+        <button type="button" class="buy-btn" data-bs-toggle="modal" data-bs-target="#myModal14">Buy Now</button>
+        <!-- The Modal -->
+        <div class="modal fade w-100" id="myModal14">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Man's Fashion</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="row modal-body">
+                  <div class="col-lg-5 col-md-12 col-12">
+                    <img class="img-fluid w-100 h-100" src="img/shoes/s3.jpg" alt="">
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-12 product_s">
+                        <h6>Home / Shoes</h6>
+                        <h2>$1</h2>
+                        <select class="my-3 bg-light">
+                            <option>Select Size</option>
+                            <option>40</option>
+                            <option>41</option>
+                            <option>42</option>
+                            <option>43</option>
+                            <option>44</option>
+                        </select>
+                        <input style="width: 50px;" type="number" value="1">
+                        <a><button id="cart1">Add to Cart</button></a>
+                        <h4 class="mt-5 mb-5">Product Details</h4>
+                        <span class="detail_s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quod doloribus nobis,Vel expedita perspiciatis commodi.</span>
+                  </div>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+          
+              </div>
+            </div>
+        </div>
+        </div>
+
+
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/shoes/s4.jpeg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Sports Shoes for Men</h5>
+        <h4 class="p-price">$120</h4>
+        <button type="button" class="buy-btn" data-bs-toggle="modal" data-bs-target="#myModal15">Buy Now</button>
+        <!-- The Modal -->
+        <div class="modal fade w-100" id="myModal15">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Man's Fashion</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="row modal-body">
+                  <div class="col-lg-5 col-md-12 col-12">
+                    <img class="img-fluid w-100 h-100" src="img/shoes/s4.jpeg" alt="">
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-12 product_s">
+                        <h6>Home / Shoes</h6>
+                        <h2>$1</h2>
+                        <select class="my-3 bg-light">
+                            <option>Select Size</option>
+                            <option>40</option>
+                            <option>41</option>
+                            <option>42</option>
+                            <option>43</option>
+                            <option>44</option>
+                        </select>
+                        <input style="width: 50px;" type="number" value="1">
+                        <a><button id="cart1">Add to Cart</button></a>
+                        <h4 class="mt-5 mb-5">Product Details</h4>
+                        <span class="detail_s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quod doloribus nobis,Vel expedita perspiciatis commodi.</span>
+                  </div>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+          
+              </div>
+            </div>
+        </div>
+        </div>
+
+
+    </div>
+</div>
+<!--Footer-->
+<footer id="fot">
+    <p>Janm Arch Rubio</p>
+    <p>For more details - please click the link below to Subscribe to my channel:</p>
+    <div class="social">
+        <a href="https://www.facebook.com/media/set/?set=a.1482333908678130&type=3"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/janmaaku14/"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="https://github.com/Janmaaku"><i class="fa-brands fa-github"></i></a>
+    </div>
+    <p class="end">CopyRIght By Janm Arch Rubio @KodeGoPH-WD20P_SoftwareChasers</p>
+   
+</footer>
+
+
+</body>
+</html>

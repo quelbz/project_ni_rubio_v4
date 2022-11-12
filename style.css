@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+/*nav section*/
+
+.navcon {
+    height: 10vh;
+}
+
+.navbar{
+    font-size: 16px;
+    top: 0;
+    left: 0;
+}
+.navbar-light .navbar-toggler {
+    border: none;
+    outline: none;
+}
+#bar{
+    font-size: 1.5rem;
+    padding: 7px;
+    cursor: pointer;
+    font-weight: 500%;
+    transform: 0.3s ease;
+    color: black;
+}
+#bar:hover{
+    color: white;
+}
+
+
+.nav-link{
+    padding: 13 20px;
+    color: black;
+    transition: 0.3s ease;
+}
+.nav-link:hover{
+    color: #f9004d;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+/*button*/
+button{
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline:none;
+    border: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 13px 60px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+hr{
+    width: 500%;
+    height: 2px;
+    background-color: #f9004d;
+}
+.star {
+    padding: 10px 0;
+}
+.star i{
+    font-size: 0.8rem;
+    color: goldenrod;
+}
+
+h1{
+    font-size: 60px;
+}
+
+button:hover{
+    background-color: aqua;
+}
+nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.btn{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+@media only screen and (max-width: 991px){
+    body > nav > button:hover,
+    body > nav > button:focus{
+        background-color: #f9004d;
+    }
+    body > nav > button:hover #bar,
+    body > nav > button:focus #bar {
+       color: aliceblue;
+    }
+    #NavBarMenu > ul{
+        margin: 1rem;
+        justify-content: flex-end;
+        align-items: flex-end;
+        text-align: end;
+    }
+}
+
+#home{
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    background-image: url(/img/skating_banner_2.jpeg);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    
+
+}
+#home span{
+    color: #f9004d;
+}
+/*New section*/
+#new .one img {
+   position: relative;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#new .one .details button{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    background: none;
+    text-transform: uppercase;
+    border: 1px solid black;
+    padding: 2.5px;
+    transform: translateX(-100) translateY(-50);
+    transition: 0.3s ease;
+}
+#new .one:hover img:hover{
+    cursor: pointer;
+    background-color: bisque;
+}
+/* Producs */
+.product{
+    cursor: pointer;
+    margin-bottom: 2rem;
+    
+}
+
+.bro{
+    height: 50%;
+    width: 50%;
+}
+.product img{
+    transition: 0.3s all;
+}
+.product:hover img{
+    background: blue;
+    opacity: 0.7;
+}
+.product .buy-btn{
+    background: #fb7745;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+.product:hover .buy-btn{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* FOR PRODUCTS IN CART */
+.product-container iconify-icon {
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* span {
+    font-size: 20pt;
+}
+
+span.name {
+    font-size: 20px;
+}
+
+span.price {
+    margin-left: 5%
+}
+
+span.qty {
+    margin-left: 10%
+} */
+
+.product-container img {
+    width: 150px;
+} 
+
+#banner{
+    background-image: url(/img/skaterboy.jpeg);
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: top 80px center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#banner button{
+    background-color: #fb7745;
+}
+#banner h1{
+    color: white;
+}
+
+
+
+#up{
+    color: #f9004d;
+}
+/*footer*/
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 35px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    font-size: 20px;
+    color: white;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9004d;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+   transform: scale(1.3);
+   transition: .3s;
+}
+.end{
+    position: absolute;
+    color: #f9004d;
+    bottom: 35px;
+    
+}
+/* form container */
+
+.login-container {
+  flex-direction: column;
+  place-content: center;
+  margin-top: 150px;
+  width: 300px;
+  color: #101010;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* THE CART */
+
+.main-content-product {
+    max-width: 700px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.prod-header {
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 10px solid lightgrey;
+    margin: 0 auto;
+}
+
+.item-name {
+    width: 40%;
+    text-align: center;
+}
+
+.item-model {
+    width: 50%;
+}
+
+.item-price {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.item-qty {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.total-qty {
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.table {
+    font-size: 15pt;
+}
+
+[data-tab-content] {
+    display: none;
+}
+
+.active[data-tab-content] {
+    display: flex;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+}
